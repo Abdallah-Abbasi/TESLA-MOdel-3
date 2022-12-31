@@ -1,0 +1,422 @@
+@font-face {
+    font-family: gothamssm;
+    src: url(Gotham\ Book.otf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 1500px;
+}
+.section1 {
+        background-image: url(TSS.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+}
+
+.maki a {
+    font-style: none;
+    text-decoration: none;
+    color: white;
+    font-family: gothamssm;
+    margin: auto;
+    width: 600px;
+    position: relative;
+    top: 0px;
+    left: 500px;
+    padding: 13px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.aam a {
+        font-style: none;
+    text-decoration: none;
+    color: white;
+    font-family: gothamssm;
+    margin: auto;
+    width: 600px;
+    position: relative;
+    top: 0px;
+    left: 500px;
+    padding: 13px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.section1 main h1 {
+    width: 200px;
+    font-style: none;
+    text-decoration: none;
+    color: white;
+    font-family: gothamssm;
+    position: relative;
+    left: 870px;
+    top: 120px;
+    font-size: 40px;    
+}
+.section1 main a {
+    width: 200px;
+    font-style: none;
+    text-decoration: none;
+    color: white;
+    font-family: gothamssm;
+    position: relative;
+    left: 870px;
+    top: 125px;
+    font-size: 14px;
+    text-decoration: underline;
+}
+.down p {
+    width: 100px;
+    color: white;
+    font-style: none;
+    text-decoration: none;
+    font-family: gothamssm;
+    position: relative;
+    font-size: 28px;
+    font-weight: bold;
+    left: 680px;
+    top: 745px;
+}
+.sped p {
+    width: 100px;
+    color: white;
+    font-family: gothamssm;
+    font-style: none;
+    text-decoration: none;
+    position: relative;
+    font-size: 14px;
+    left: 645px;
+    top: 750px;
+}
+.mi p {
+    width: 100px;
+    color: white;
+    font-family: gothamssm;
+    font-style: none;
+    text-decoration: none;
+    position: relative;
+    font-size: 28px;
+    font-weight: bold;
+    left: 800px;
+    top: 695px;
+}
+.range p {
+    width: 120px;
+    color: white;
+    font-family: gothamssm;
+    font-style: none;
+    text-decoration: none;
+    position: relative;
+    font-size: 12px;
+    left: 800px;
+    top: 700px;
+}
+.awd p {
+    width: 100px;
+    color: white;
+    font-family: gothamssm;
+    font-style: none;
+    text-decoration: none;
+    position: relative;
+    font-size: 28px;
+    font-weight: bold;
+    left: 1000px;
+    top: 646px;
+}
+.dual p {
+    width: 100px;
+    color: white;
+    font-family: gothamssm;
+    font-style: none;
+    text-decoration: none;
+    position: relative;
+    font-size: 12px;
+    left: 1000px;
+    top: 646px;
+}
+.bn a {
+    color: white;
+    font-weight: bold;
+    font-style: none;
+    width: 300px;
+    border: white solid 3px;
+    border-radius: 5px;
+    font-family: gothamssm;
+    text-decoration: none;
+    position: relative;
+    padding-right: 70px;
+    padding-left: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    left: 1170px;
+    top: 610px;
+    font-size: 15px;
+}
+.bn a:hover{
+    background-color: white;
+    color: black;
+
+}
+.aam a:hover {
+    filter: blur(1px);
+}
+.maki a:hover {
+    filter: blur(1px);
+}
+.headtetc a,p,h2,sub {
+    width: 400px;
+    color: #44474d;   
+    font-family: gothamssm;
+    font-style: none;
+    text-decoration: none;
+    position: relative;
+    left: 1500px;
+    top: -880px;
+    line-height: 1.3em;
+}
+.saftey a:visited {
+    color: #44474d;
+}
+.sub {
+    color: black;
+    font-size: 22px;
+}
+.h22 h2 {
+    color: black;
+    font-size: 32px;
+}
+.buttt a {
+    font-style: none;
+    text-decoration: none;
+    color: black;
+    border: black solid 3px;
+    padding-right: 75px;
+    padding-left: 75px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 5px;
+    font-family: gothamssm;
+    position: relative;
+    left: 1665px;
+    bottom: 350px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.buttt a:visited {
+    color: black;
+}
+.buttt a:hover {
+    background-color: black;
+    color: white;
+}
+.plus a {
+    font-style: none;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    border: 3px solid black;
+    border-radius: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+    height: 250px;
+    width: 250px;
+    position: relative;
+    left: 1505px;
+    bottom: 370px;
+    font-family: gothamssm;
+}
+.plus a:visited {
+    color: black;
+}
+.plus label {
+    color:#44474d;
+    font-style: none;
+    text-decoration: none;
+    position: relative;
+    left: 1510px;
+    bottom: 375px;
+    font-family: gothamssm;
+    font-size: 16px;
+}
+.plus a:hover {
+    color: white;
+    background-color: black;
+}
+.ste img {
+    height: 50px;
+    position: relative;
+    top: -310px;
+    left: 570px;
+}
+.a5r p{
+    font-style: none;
+    text-decoration: none;
+    font-family: gothamssm;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    position: relative;
+    left: 658px;
+    top: -360px;
+}
+.a4r p {
+    color: white;
+    font-style: none;
+    text-decoration: none;
+    font-family: gothamssm;
+    text-align: center;
+    position: relative;
+    left: 470px;
+    top: -360px;
+    font-size: 14px;
+}
+.a3r p {
+    color: white;
+    font-style: none;
+    text-decoration: none;
+    font-family: gothamssm;
+    text-align: center;
+    position: relative;
+    left: 800px;
+    top: -439px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.a2r {
+    font-style: none;
+    text-decoration: none;
+    font-family: gothamssm;
+    text-align: center;
+    position: relative;
+    left: -690px;
+    top: 437px;
+    font-size: 14px;
+}
+.a2r p {
+    color: white;
+    font-family: gothamssm;
+}
+.a1r p{
+    font-style: none;
+    text-decoration: none;
+    font-family: gothamssm;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    position: relative;
+    left: 1300px;
+    top: -520px;
+}
+.a6r p {
+    color: white;
+    font-style: none;
+    text-decoration: none;
+    font-family: gothamssm;
+    text-align: center;
+    position: relative;
+    left: 1150px;
+    top: -525px;
+    font-size: 14px;
+}
+.a7r p {
+    color: #171a20;
+    font-style: none;
+    text-decoration: none;
+    font-family: gothamssm;
+    position: relative;
+    left: 400px;
+    top: -280px;
+    font-size: 18px;
+}
+.a7r h2 {
+    width: 500px;
+    color:black;
+    font-style: none;
+    text-decoration: none;
+    font-family: gothamssm;
+    position: relative;
+    left: 400px;
+    top: -280px;
+    font-size: 30px;
+}
+.plus2 a {
+    font-style: none;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    border: 3px solid black;
+    border-radius: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+    height: 250px;
+    width: 250px;
+    position: relative;
+    left: 400px;
+    bottom: 250px;
+    font-family: gothamssm;
+}
+.plus2 a:visited {
+    color: black;
+}
+.plus2 label {
+    color:#44474d;
+    font-style: none;
+    text-decoration: none;
+    position: relative;
+    left: 405px;
+    bottom: 255px;
+    font-family: gothamssm;
+    font-size: 16px;
+}
+.plus2 a:hover {
+    color: white;
+    background-color: black;
+}
+.but4 a {
+    font-style: none;
+    text-decoration: none;
+    color: black;
+    border: black solid 3px;
+    padding-right: 75px;
+    padding-left: 75px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 5px;
+    font-family: gothamssm;
+    position: relative;
+    left: 550px;
+    bottom: 275px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.but4 a:visited {
+    color: black;
+}
+.but4 a:hover {
+    background-color: black;
+    color: white;
+}
+.yes p {
+    font-style: none;
+    text-decoration: none;
+    font-family: gothamssm;
+    width: 1000px;
+    color: #393c41;
+    position: relative;
+    left: 885px;
+    top: -389px;
+}
+.yes span a {
+    font-family: gothamssm;
+    color: #393c41;
+}
+.yes span a:visited {
+    color: #393c41;
+}
